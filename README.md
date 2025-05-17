@@ -21,13 +21,13 @@ This project implements a secure **Smart Digital Lock System** using **VHDL**, d
 ## File Structure
 | File | Description |
 |------|-------------|
-| [keypad.vhd](src/keypad.vhd) | Scans matrix keypad input |
-| [seven_segment_driver.vhd](src/seven_segment_driver.vhd) | Drives the 7-segment display |
-| [lock_control.vhd](src/lock_control.vhd) | Lock logic: password check, resets, alerts |
-| [top_module.vhd](src/top_module.vhd) | Top-level module connecting all others |
-| [tb_top_module.vhd](src/tb_top_module.vhd) | Testbench to simulate behavior |
-| [constraints.xdc](src/constraints.xdc) | Pin mapping for Basys 3 FPGA |
-| ![diagram.png](src/diagram.png) | System architecture diagram |
+| [keypad.vhd](keypad.vhd) | Scans matrix keypad input |
+| [seven_segment_driver.vhd](seven_segment_driver.vhd) | Drives the 7-segment display |
+| [lock_control.vhd](lock_control.vhd) | Lock logic: password check, resets, alerts |
+| [top_module.vhd](top_module.vhd) | Top-level module connecting all others |
+| [tb_top_module.vhd](tb_top_module.vhd) | Testbench to simulate behavior |
+| [constraints.xdc](constraints.xdc) | Pin mapping for Basys 3 FPGA |
+| ![diagram.png](diagram.png) | System architecture diagram |
 
 |
 
